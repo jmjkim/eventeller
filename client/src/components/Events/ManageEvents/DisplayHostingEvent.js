@@ -22,7 +22,7 @@ const DisplayHostingEvent = ({events, user, setFlag}) => {
                 <div className="btn_container">
                     <button onClick={() => handleCancelHosting(hostingEvent.id)}>Mark As Completed</button>
                     <button onClick={() => handleCancelHosting(hostingEvent.id)}>Cancel Hosting</button>
-                    <Link to={`/update_my_event/${hostingEvent.id}`}>Edit</Link>
+                    <Link to={`/events/${hostingEvent.id}/edit`}>Edit</Link>
                 </div>
             </div>
         )

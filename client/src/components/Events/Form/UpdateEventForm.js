@@ -85,7 +85,7 @@ const UpdateEventForm = ({updatingEvent, handleUpdate, handleChange, errors}) =>
 
                 <div className="btn_container">
                     <button type="submit">Update</button>
-                    <Link to="/manage_event">Back To Manage Event</Link>
+                    <Link to="/events/manage">Back To Manage Event</Link>
                 </div>
             </form>
 

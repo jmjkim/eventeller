@@ -39,7 +39,7 @@ const UpdateEvent = () => {
            if (!data.error) {
               setFlag(true)
               alert("Event successfully updated!")
-              navigate("/manage_event")
+              navigate("/events/manage")
            } 
            else 
                setErrors(data.error)})

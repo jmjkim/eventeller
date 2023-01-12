@@ -24,9 +24,9 @@ const App = () => {
                   <Route exact path="/about" element={<About/>}/>
                   <Route exact path="/events" element={<DisplayAllEvents/>}/>
                   <Route exact path="/events/:id" element={<DisplayEventDetail/>}/>
-                  <Route exact path="/create_new_event" element={<DisplayCreatingEventForm/>}/>
-                  <Route exact path="/manage_event" element={<ManageEvent/>}/>
-                  <Route exact path="/update_my_event/:id" element={<UpdateEvent/>}/>
+                  <Route exact path="/events/new" element={<DisplayCreatingEventForm/>}/>
+                  <Route exact path="/events/manage" element={<ManageEvent/>}/>
+                  <Route exact path="/events/:id/edit" element={<UpdateEvent/>}/>
                   <Route path="*" element={<NoRouteMatch />}/>
                 </Routes>
               </UserProvider>

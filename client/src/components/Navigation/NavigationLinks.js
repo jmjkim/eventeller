@@ -6,8 +6,8 @@ const NavigationLinks = () => {
             <Link to="/">HOME</Link>
             <Link to="/about">ABOUT</Link>
             <Link to="/events">VIEW ALL EVENTS</Link> 
-            <Link to="/create_new_event">CREATE NEW EVENT</Link> 
-            <Link to="/manage_event">MANAGE MY EVENTS</Link>
+            <Link to="/events/new">CREATE NEW EVENT</Link>
+            <Link to="/events/manage">MANAGE MY EVENTS</Link>
         </div>  
     )
 }
