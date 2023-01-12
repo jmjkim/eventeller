@@ -1,0 +1,294 @@
+body {
+  margin: 0 0 10% 0;
+  font-family: 'Roboto', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+  monospace;
+}
+
+textarea {
+  resize: none;
+}
+
+footer {
+  display: flex;
+  justify-content: space-evenly;
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: rgb(0, 0, 0);
+  color: white;
+  text-align: center;
+}
+
+a, button {
+  text-decoration: none;
+  align-items: center;
+  appearance: none;
+  background-color: #fff;
+  border: .5px solid #dbdbdb;
+  border-radius: .375em;
+  box-shadow: none;
+  box-sizing: border-box;
+  color: #363636;
+  cursor: pointer;
+  display: inline-flex;
+  font-size: 1rem;
+  height: 1.5em;
+  justify-content: center;
+  line-height: 1.5;
+  padding: calc(.25em - .5px) .5em;
+  position: relative;
+  text-align: center;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  vertical-align: top;
+  white-space: nowrap;
+}
+
+a:active, 
+button:active {
+  text-decoration: none;
+  border-color: #4a4a4a;
+  outline: 0;
+}
+
+a:focus, 
+button:focus {
+  text-decoration: none;
+  border-color: #485fc7;
+  outline: 0;
+}
+
+a:hover, 
+button:hover {
+  text-decoration: none;
+  border-color: #484848;
+}
+
+a:focus:not(:active), 
+button:focus:not(:active) {
+  text-decoration: none;
+  box-shadow: rgba(72, 95, 199, .25) 0 0 0 .125em;
+}
+
+.signin_container {
+  display: flex;
+  flex-direction: column;
+  margin: 5rem auto 0 auto;
+  padding-bottom: 2rem;
+  align-items: center;
+  width: 30%;
+  background-color: rgb(240, 240, 240);
+}
+
+.signup_form_container {
+  margin: auto;
+  width: 50%;
+  padding: 20px;
+  border: .5px solid rgb(150, 150, 150);
+  background-color: rgb(255, 255, 255);
+}
+
+.signin_form_container {
+  width: 30%;
+  margin: auto;
+  padding: 20px;
+  border: .5px solid rgb(150, 150, 150);
+  background-color: rgb(255, 255, 255);
+}
+
+#signin_img {
+  width: 100%;
+}
+
+#signin_form,
+#signup_form {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+
+.btn_container {
+  display: flex;
+  justify-content: space-evenly;
+  margin: 10px auto;
+  width: 100%;
+}
+
+.navigation_container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: rgb(0, 0, 0);
+}
+
+.navigation_list {
+  display: flex;
+  width: 100%;
+  justify-content: space-evenly;
+}
+
+.user_profile_container {
+  padding-bottom: 10px;
+  color: rgb(255, 255, 255);
+  text-align: center;
+}
+
+.signedin_img_container {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  font-size: 24px;
+}
+
+.signedin_img_subcontainer {
+  display: flex;
+  align-items: center;
+}
+
+#signedin_img1 {
+  width: 50%;
+}
+
+.display_event_container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+}
+
+.display_event_subcontainer {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+  width: 80%;
+  margin: 20px auto 0 auto;
+}
+
+.event_info_detail_container {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  align-items: center;
+  line-height: 30px;
+  word-break: break-word;
+}
+
+
+.individual_event_container {
+  display: flex;
+  flex-direction: column;
+  border: .5px solid;
+  padding-bottom: 10px;
+  align-items: center;
+  width: 100%;
+  line-height: 30px;
+}
+
+.individual_event_detail_container {
+  display: flex;
+  flex-direction: column;
+  margin: 20px auto;
+  border: .5px solid;
+  align-items: center;
+  width: 30%;
+  line-height: 30px;
+}
+
+.list_of_attendee_container,
+.list_of_feedback_container {
+  text-align: center;
+  margin-bottom: 20px;
+  border-bottom: .5px solid;
+  width: 90%;
+  overflow-y: auto;
+  height: 8rem;
+  border-bottom: .5px solid;
+  word-break: break-word;
+}
+
+.create_event_form_container,
+.update_event_form_container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 20px auto;
+  border: .5px solid;
+  width: 50%;
+}
+
+#create_event_form,
+#update_event_form  {
+  display: flex;
+  flex-direction: column;
+  line-height: 30px;
+  width: 85%;
+}
+
+.manage_event_container {
+  display: flex;
+  flex-direction: column;
+  margin: 20px auto;
+  align-items: center;
+  width: 50%;
+  border: .5px solid;
+}
+
+.display_attending_event_container,
+.display_hosting_event_container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 10px 10px 10% 10px;
+}
+
+.feedback_form_container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.display_error_container {
+  margin: auto;
+  line-height: 24px;
+}
+
+.not_signed_in,
+.page_not_found {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  margin: auto;
+  width: 40%;
+}
+
+.about_container {
+  display: flex;
+  flex-direction: column;
+  margin: 2rem 20rem;
+  border: .5px solid;
+}
+
+.about_the_app_container,
+.technical_detail_container {
+  display: flex;
+  flex-direction: column;
+  margin: 20px;
+  padding: 20px;
+  text-align: left;
+  line-height: 30px;
+}
+
+.about_the_app_subcontainer {
+  display: flex;
+  justify-content: space-evenly;
+  border-bottom: .5px solid;
+  width: 100%;
+}
