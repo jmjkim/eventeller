@@ -2,8 +2,8 @@ const AboutContent = () => {
     return (
         <>
             <div className="about_the_app_container">
-                <h3>About the app</h3>
-                <p><b>Eventeller (Event Teller)</b> is my software engineering final project at Flatiron School where users can either create their own event such as birthday, pet meeting and other casual meetings or attend to as many events as they want.</p>
+                <h2>Eventeller (Event Teller)</h2>
+                <p>is an application where users can either create their own event such as a birthday party, pet meeting, other casual meetings or attend to as many events as they want!</p>
 
                 <div className="about_the_app_subcontainer">
                     <ol>
@@ -21,18 +21,6 @@ const AboutContent = () => {
                         <li>View event attendees</li>
                     </ol>
                 </div>
-            </div>
-
-            <div className="technical_detail_container">
-                <h3>Technical Detail</h3>
-
-                <ul>
-                    <li>Models have <b>Many to Many</b> associations.</li>
-                    <li>Multiple <b>Validations</b> are implemented on each model for proper data handling in the database (ex: <b>uniqueness</b> for username, phone number, email address).</li>
-                    <li>Password protection <b>(has_secure_password)</b> and <b>User Authentication</b> implemented for user account.</li>
-                    <li>Implemented <b>UseContext</b> for global state variable.</li>
-                    <li>React/Rails used for Front/Backend.</li>
-                </ul>
             </div>
         </>
     )

@@ -13,7 +13,7 @@ const UserProfile = ({user, signOut}) => {
 
     return (
         <div className="user_profile_container">
-            <p>Welcome {user.username}</p>
+            <p>Welcome <i>{user.username}</i></p>
             
             <div className="btn_container">
                 <button onClick={() => handleSignOut()}>Sign Out</button>

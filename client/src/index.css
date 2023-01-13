@@ -276,19 +276,18 @@ button:focus:not(:active) {
   border: .5px solid;
 }
 
-.about_the_app_container,
-.technical_detail_container {
+.about_the_app_container {
   display: flex;
   flex-direction: column;
   margin: 20px;
   padding: 20px;
-  text-align: left;
+  text-align: center;
   line-height: 30px;
 }
 
 .about_the_app_subcontainer {
   display: flex;
+  text-align: left;
   justify-content: space-evenly;
-  border-bottom: .5px solid;
   width: 100%;
 }
