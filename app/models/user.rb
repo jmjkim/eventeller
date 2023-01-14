@@ -2,8 +2,8 @@ class User < ApplicationRecord
     has_secure_password
 
     has_many :event_attendees, foreign_key: :attendee_id, dependent: :destroy
-    has_many :events, through: :event_attendees,  dependent: :destroy
-    has_one :event, foreign_key: :coordinator_id, class_name: "Event",  dependent: :destroy
+    has_many :events, through: :event_attendees, dependent: :destroy
+    has_one :event, foreign_key: :coordinator_id, class_name: "Event", dependent: :destroy
 
     validates :username, :password, :first_name, :last_name, :phone, :email, :password_confirmation, presence: true
     validates :username, :phone, :email, uniqueness: true
