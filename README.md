@@ -1,5 +1,5 @@
 # Eventeller
-Eventeller is a full-stack web application for my software engineering final project at Flatiron School using **React**, **Active Record**, **Rails**, **Postgres**.
+Eventeller is a full-stack web application for my software engineering final project at Flatiron School using **React**, **Rails**, **Active Record**, **Postgres**.
 
 [View app demonstration](https://dev.to/jmjkim/fis-phase-5-final-project-demonstration-eventeller-3o5f)
 
