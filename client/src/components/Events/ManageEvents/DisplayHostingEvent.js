@@ -29,7 +29,7 @@ const DisplayHostingEvent = ({events, user, setFlag}) => {
 
     return (
         <div className="display_event_container">
-            <h3>You are not hosting any events</h3>
+            <p>You are not hosting any events</p>
         </div>
     )
 }

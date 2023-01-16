@@ -34,7 +34,7 @@ const DisplayAttendingEvents = () => {
     else {
         return (
             <div className="display_event_container">
-                <p>You are not attending any events.</p>
+                <p>You are not attending any events</p>
             </div>
         )
     }
