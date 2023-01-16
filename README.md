@@ -36,8 +36,11 @@ After singed in successfully, users can:
 
 ## License
 - [MIT](https://choosealicense.com/licenses/mit/)<br/>
-- [Lamborghini Automobili](https://www.lamborghini.com/en-en/)<br/>
-- All rights of images, logos and other digital resources used in this project reserved to its original creator.<br/>
+- Sign in Calendar image: https://media.istockphoto.com/id/1366026792/photo/calendar-page-with-red-pen-close-up-focus-on-number-15-in-calendar-and-empty-red-circle-for.jpg?
+
+- Two images on landing page: 
+1. https://spotme.com/blog/virtual-event-planner/
+2. https://thumbs.dreamstime.com/b/friends-gathering-together-weekend-vector-buddies-sitting-couch-cafe-drinking-coffee-people-spend-time-playing-guitar-156466925.jpg
 
 ## Contact
 [Linkedin](https://www.linkedin.com/in/jmjkim/)<br/>
