@@ -4,10 +4,8 @@ Eventeller is a full-stack web application for my software engineering final pro
 [View app demonstration](https://dev.to/jmjkim/fis-phase-5-final-project-demonstration-eventeller-3o5f)
 
 
-###### Project Proposal:
-[](https://github.com/jmjkim/fisphase5-final-project/blob/main/Jack%20Kim%20Capstone%20Project%20Proposal.pdf)
-
-
+###### Model Association:
+Please refer to Jack Kim Capstone Project Proposal.pdf
 
 _Serializers are used for each model to refine JSON data for backend._<br/>
 
