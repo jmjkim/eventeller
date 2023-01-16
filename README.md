@@ -5,9 +5,7 @@ Eventeller is a full-stack web application for my software engineering final pro
 
 ## Description
 ###### Model Association:
-Please refer to Jack Kim Capstone Project Proposal.pdf
-_Serializers are used for each model to refine JSON data for backend._<br/>
-
+Please refer to Jack Kim Capstone Project Proposal.pdf<br/>
 
 ### Setup
 Run the following commands to install gems and launch the app.
@@ -21,7 +19,6 @@ rails db:create db:migrate db:seed
 rails s
 npm start --prefix client
 ```
-<br/>
 
 ### Features
 After singed in successfully, users can:
