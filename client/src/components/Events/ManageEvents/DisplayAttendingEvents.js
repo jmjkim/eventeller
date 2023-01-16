@@ -10,7 +10,7 @@ const DisplayAttendingEvents = () => {
     const [ showFeedbackFormFor, setShowFeedbackFormFor ] = useState()
 
     const handleCancelAttending = (attendeeId) => {
-        fetch(`event_attendees/${attendeeId}`, { method: "DELETE" })
+        fetch(`/event_attendees/${attendeeId}`, { method: "DELETE" })
         .then(() => setFlag(true))
     }
 

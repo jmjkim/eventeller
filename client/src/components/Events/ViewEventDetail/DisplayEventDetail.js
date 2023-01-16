@@ -3,6 +3,7 @@ import { UserContext } from "../../../context/user";
 import { useParams, Link } from "react-router-dom";
 
 import DisplayEventInfoDetail from "./DisplayEventInfoDetail";
+import NoRouteMatch from "../../NoRouteMatch";
 
 const DisplayEventDetail = () => {
     document.title = "Event Detail"
@@ -55,7 +56,7 @@ const DisplayEventDetail = () => {
         }
 
         else 
-            return <p>Loading...</p>
+            return <NoRouteMatch/>
     }
 
     else 

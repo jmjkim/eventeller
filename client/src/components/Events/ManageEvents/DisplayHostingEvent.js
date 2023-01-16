@@ -6,7 +6,7 @@ const DisplayHostingEvent = ({events, user, setFlag}) => {
     const hostingEvent = events.find(event => event.coordinator_id === user.coordinator_id)
 
     const handleCancelHosting = (eventId) => {
-        fetch(`events/${eventId}`, { method: "DELETE" })
+        fetch(`${eventId}`, { method: "DELETE" })
         .then(() => setFlag(true))
     }
 

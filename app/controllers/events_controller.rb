@@ -12,7 +12,7 @@ class EventsController < ApplicationController
         if @event
             render json: @event
         else
-            render json: {error: "Event not found"}
+            render json: { error: "Event not found" }
         end
     end
 

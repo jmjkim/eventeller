@@ -5,7 +5,7 @@ Rails.application.routes.draw do
   post "/signin", to: "sessions#create"
   delete "/signout", to: "sessions#destroy"
   
-  resources :events, shallow: true do
+  resources :events, only: [:index, :show, :create, :update, :delete], shallow: true do
     resources :event_attendees, only: [:index, :create, :destroy]
     resources :feedbacks, only: [:index, :create]
   end
