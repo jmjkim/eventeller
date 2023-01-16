@@ -14,7 +14,7 @@ const CreateFeedbackForm = ({attendeeId, eventId, setShowFeedbackFormFor, setFla
     const handleSubmit = (e) => {
         e.preventDefault()   
  
-        fetch(`events/${eventId}/feedbacks`, {
+        fetch(`${eventId}/feedbacks`, {
             method: "POST",
             headers: { "Content-Type": "application/json" },
             body: JSON.stringify({

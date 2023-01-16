@@ -9,6 +9,8 @@ Rails.application.routes.draw do
     resources :event_attendees, only: [:index, :create, :destroy]
     resources :feedbacks, only: [:index, :create]
   end
+
+# events/9/feedbacks
   
   # Routing logic: fallback requests for React Router.
   # Leave this here to help deploy your app later!

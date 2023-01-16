@@ -209,7 +209,8 @@ button:focus:not(:active) {
   text-align: center;
   width: 50%;
   overflow-y: auto;
-  height: 4rem;
+  height: 8rem;
+  margin-bottom: 2.5%;
   word-break: break-word;
 }
 
