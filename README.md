@@ -35,12 +35,10 @@ After singed in successfully, users can:
 3. The Odin Project Model Association: https://www.theodinproject.com/lessons/ruby-on-rails-active-record-associations
 
 ## License
-- [MIT](https://choosealicense.com/licenses/mit/)<br/>
-- Sign in Calendar image: https://media.istockphoto.com/id/1366026792/photo/calendar-page-with-red-pen-close-up-focus-on-number-15-in-calendar-and-empty-red-circle-for.jpg?
-
-- Two images on landing page: 
-1. https://spotme.com/blog/virtual-event-planner/
-2. https://thumbs.dreamstime.com/b/friends-gathering-together-weekend-vector-buddies-sitting-couch-cafe-drinking-coffee-people-spend-time-playing-guitar-156466925.jpg
+- [MIT](https://choosealicense.com/licenses/mit/)
+- [Sign in Calendar image](https://media.istockphoto.com/id/1366026792/photo/calendar-page-with-red-pen-close-up-focus-on-number-15-in-calendar-and-empty-red-circle-for.jpg?)
+- [Landing page image 1](https://spotme.com/blog/virtual-event-planner/)
+- [Landing page image 2](https://thumbs.dreamstime.com/b/friends-gathering-together-weekend-vector-buddies-sitting-couch-cafe-drinking-coffee-people-spend-time-playing-guitar-156466925.jpg)
 
 ## Contact
 [Linkedin](https://www.linkedin.com/in/jmjkim/)<br/>
