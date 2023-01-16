@@ -30,9 +30,9 @@ After singed in successfully, users can:
 - _View how many comments users wrote on Lamborghinis._<br/>
 
 ## References
-1. Resources from Flatiron School Software Engineering Course.
-2. Publicly available articles, lectures, videos from the Internet.<br/>
-3. The Odin Project Model Association: https://www.theodinproject.com/lessons/ruby-on-rails-active-record-associations
+1. Resources from Flatiron School Software Engineering Course
+2. Publicly available articles, lectures, videos from the Internet
+3. [The Odin Project Model Association](https://www.theodinproject.com/lessons/ruby-on-rails-active-record-associations)
 
 ## License
 - [MIT](https://choosealicense.com/licenses/mit/)
