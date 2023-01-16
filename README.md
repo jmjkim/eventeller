@@ -5,7 +5,12 @@ Eventeller is a full-stack web application for my software engineering final pro
 
 ## Description
 ###### Model Association:
-Please refer to Jack Kim Capstone Project Proposal.pdf<br/>
+Please refer to Jack Kim Capstone Project Proposal.pdf for more details<br/>
+
+- Models have Many to Many associations
+- Multiple Validations are implemented on each model for proper data handling in the database (ex: uniqueness for username, phone number, email address)
+- Password protection (has_secure_password) and User Authentication implemented for user account
+- Implemented UseContext for global state variable
 
 ### Setup
 Run the following commands to install gems and launch the app.
