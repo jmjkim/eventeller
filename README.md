@@ -41,5 +41,4 @@ After singed in successfully, users can:
 - [Landing page image 2](https://thumbs.dreamstime.com/b/friends-gathering-together-weekend-vector-buddies-sitting-couch-cafe-drinking-coffee-people-spend-time-playing-guitar-156466925.jpg)
 
 ## Contact
-[Linkedin](https://www.linkedin.com/in/jmjkim/)<br/>
-Jongmin Jack Kim jmjkim00@icloud.com
+[My Linkedin](https://www.linkedin.com/in/jmjkim/)
