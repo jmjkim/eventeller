@@ -4,7 +4,8 @@ Eventeller is a full-stack web application for my software engineering final pro
 [View app demonstration](https://dev.to/jmjkim/fis-phase-5-final-project-demonstration-eventeller-3o5f)
 
 
-###### Model Association:
+###### Project Proposal:
+![alt text](https://github.com/jmjkim/fisphase5-final-project/blob/main/Jack%20Kim%20Capstone%20Project%20Proposal.pdf)
 
 
 
